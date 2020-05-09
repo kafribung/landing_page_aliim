@@ -1,17 +1,498 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+    <title>Aliim - Belajar Islam Dengan Mudah</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
+
+    <!--kafriansyah.com  -->
+    <meta name="author" content="Aliim">
+    <meta name="description" content="Belajar islam dari dasar, bingung mulai dari mana? aliim aja. Memahami islam dan dibimbing oleh ustadz dan ustadzah">
+    <meta name="keywords" content="Belajar Islam dari dasar, Mengenal islam lebih dekat, kembali kejalanNya, hijarah, dibimbing oleh ustadz ustadzah, belajar dari awal, belajar islam asyik dan meneyenangkan, apa itu islam, tentang puasa, tentang sholat, tentang haji, halal haram, muamalah">
+    <meta property="og:title" content="Aliim - Belajar Islam Dengan Mudah Dibimbing oleh ustadz dan ustadzah">
+    <meta property="og:description" content="Belajar islam dari dasar, bingung mulai dari mana? aliim aja. Memahami islam dan dibimbing oleh ustadz dan ustadzah">
+    <meta property="og:keywords" content=" Belajar Islam dari dasar, Mengenal islam lebih dekat, kembali kejalanNya, hijarah, dibimbing oleh ustadz ustadzah, belajar dari awal, belajar islam asyik dan meneyenangkan, apa itu islam, tentang puasa, tentang sholat, tentang haji, halal haram, muamalah">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@aliim_indonesia">
+    <meta name="twitter:creator" content="@aliim_indonesia">
+    <meta name="twitter:title" content="Aliim - Belajar Islam Dengan Mudah Dibimbing oleh ustadz dan ustadzah">
+    <meta name="twitter:url" content="https://aliim.web.id">
+
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="error" width="80" height="80">
+            </a>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav nav ml-auto">
+                    <li class="nav-item"><a href="#home-section" class="nav-link"><span>Beranda</span></a></li>
+                    <li class="nav-item"><a href="#services-section" class="nav-link"><span>Layanan</span></a></li>
+                    <li class="nav-item"><a href="#about-section" class="nav-link"><span>Tentang</span></a></li>
+                    <li class="nav-item"><a href="#testimony-section" class="nav-link"><span>Pengembang</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Nvbar -->
+    <!-- Hero -->
+    <section id="home-section" class="hero">
+        <h3 class="vr">Welcome to Aliim</h3>
+        <div class="home-slider js-fullheight owl-carousel">
+            <div class="slider-item js-fullheight">
+                <div class="overlay"></div>
+                <div class="container-fluid p-0">
+                    <div class="row d-md-flex no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+                        <div class="one-third order-md-last img js-fullheight" style="background-image:url(images/bg_1.jpg);">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                            <div class="text">
+                                <span class="subheading">Aliim Berbuat Baik Untuk Negeri</span>
+                                <h1 class="mb-4 mt-3">Sebuah Tempat Pembelajaran <span>Islam</span></h1>
+                                <p>Aliim sebagai tempat untuk belajar dan mengetahui seluk beluk tentang islam. Menyajikan materi dasar Islam dan dibimbing langsung dengan orang yang ahli dibidangnya.</p>
+                                <p>Tempat belajar Islam yang asik dan seruh, cocok untuk muallaf dan pemuda hijrah</p>
+
+                                <p><a href="#services-section" class="btn btn-primary px-5 py-3 mt-3">Fitur</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-item js-fullheight">
+                <div class="overlay"></div>
+                <div class="container-fluid p-0">
+                    <div class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+                        <div class="one-third order-md-last img js-fullheight" style="background-image:url(images/bg_2.jpg);">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                            <div class="text">
+                                <span class="subheading">Aliim | Belajar Dengan Mudah</span>
+                                <h1 class="mb-4 mt-3"><span>Belajar Islam</span> Dengan Mudah Bersama <span>Ustadz dan Ustadzah</span> </h1>
+                                <p>Belajar tentang Islam dibimbing langsung dengan orang yang ahli dibidangnya.</p>
+                                <p>Dilengkapi dengan artikel islamiah dan video pembelajaran Islam.</p>
+                                <p>Belajar sambil mendalami Islam dengan baik dan benar</p>
+
+
+                                <p><a href="#services-section" class="btn btn-primary px-5 py-3 mt-3">Fitur</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Hero -->
+
+    <!-- Fitur -->
+    <section class="ftco-section ftco-no-pb ftco-no-pt ftco-services bg-light" id="services-section">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-md-4 ftco-animate py-5 nav-link-wrap">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link px-4 active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"><span class="mr-3 flaticon-ideas"></span> Artikel Islam</a>
+
+                        <a class="nav-link px-4" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false"><span class="mr-3 flaticon-flasks"></span> Video Pembelajaran</a>
+
+                        <a class="nav-link px-4" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false"><span class="mr-3 flaticon-analysis"></span> Tanya Ustadz</a>
+
+                        <a class="nav-link px-4" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><span class="mr-3 flaticon-web-design"></span> Komentar</a>
+
+                        <a class="nav-link px-4" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"><span class="mr-3 flaticon-ux-design"></span> Cari Penceramah</a>
+
+                        <a class="nav-link px-4" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="false"><span class="mr-3 flaticon-innovation"></span> Bimbingan Ngaji</a>
+
+                        <a class="nav-link px-4" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-7" role="tab" aria-controls="v-pills-7" aria-selected="false"><span class="mr-3 flaticon-idea"></span> Pengobatan Ruqyah Syariah</a>
+                    </div>
+                </div>
+                <div class="col-md-8 ftco-animate p-4 p-md-5 d-flex align-items-center">
+
+                    <div class="tab-content pl-md-5" id="v-pills-tabContent">
+
+                        <div class="tab-pane fade show active py-5" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+                            <span class="icon mb-3 d-block flaticon-ideas"></span>
+                            <h2 class="mb-4">Artikel Islam</h2>
+                            <p>Aliim memiliki banyak fitur, salah satunya yaitu mempunyai banyak artikel tentang islam, yang dimana Kita dapat mengaksesnya dengan mudah, cepat, dan praktis. artikelnya juga sudah di saring dengan baik oleh admin dan ustad
+                                yang terpercaya dan ada juga artikel yang dibagikan oleh ustad itu sendiri.</p>
+                            <p>Artikel di Aliim juga sudah di susun terperinci dan mudah di pahami. Yuk belajar di Aliim</p>
+                        </div>
+
+                        <div class="tab-pane fade py-5" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+                            <span class="icon mb-3 d-block flaticon-flasks"></span>
+                            <h2 class="mb-4">Video Pembelajaran</h2>
+                            <p>Setelah Membaca Artikel, Anda bingung bagaimana cara mempraktekkannya? Tenang saja, Aliim juga menyediakan fitur video sehingga pengguna dapat dengan mudah belajar baik dalam hal tulisan maupun lisan.</p>
+                            <p>Di dalam video pembelajaran, Aliim menyediakan sangat banyak hal yang dapat di tonton baik itu tentang sholat, puasa, dan yang lainnya. Jika pengguna sudah membaca artikel dan ingin tau cara mempratekkannya, fitur ini akan
+                                menjadi salah satu jawabannya.</p>
+                        </div>
+
+                        <div class="tab-pane fade py-5" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+                            <span class="icon mb-3 d-block flaticon-analysis"></span>
+                            <h2 class="mb-4">Tanya Ustadz</h2>
+                            <p>Pengguna bingung ingin bertanya dimana soal islam? Ingin bertanya, tapi sulit mencari orang yang mengetahui banyak seluk beluk tentang islam? Yuk langsung bertanya di ustadz. Aliim menyediakan fitur tanya ustadz agar memudahkan
+                                pengguna untuk memahami setiap materi yang ada dan juga hal-hal yang tidak di pahami dalam islam.</p>
+                            <p>Jadi pengguna tidak perlu pusing dan bingung jika menemukan sesuatu yang kurang di pahami dalam ilmu tentang islam. yuk, segera bertanya ustadz.</p>
+                        </div>
+
+                        <div class="tab-pane fade py-5" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+                            <span class="icon mb-3 d-block flaticon-web-design"></span>
+                            <h2 class="mb-4">Komentar</h2>
+                            <p>Jika pengguna sudah mempelajari artikel yang ada dan ingin mengomentari tentang artikel tersebut, silahkan berkomentar di kolom komentar yang telah aliim siapkan.</p>
+                            <p>Fitur ini di buat agar pengguna dapat berkomentar terhadap artikel yang ada baik itu untuk mengkoreksi kesalahan yang ada maupun memberi nilai baik terhadap artikel tersebut.</p>
+                        </div>
+
+                        <div class="tab-pane fade py-5" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-4-tab">
+                            <span class="icon mb-3 d-block flaticon-ux-design"></span>
+                            <h2 class="mb-4">Cari Penceramah</h2>
+                            <p>Aliim menyediakan fitur yang dapat dengan mudah memenuhi jadwal penceramah baik itu masjid, majelis ta’lim dan berbagai hal lainnya. Pengguna akan di bantu oleh admin untuk mencari ustadz yang sedang able untuk dapat mengisi
+                                kegiatan tersebut.</p>
+                        </div>
+
+                        <div class="tab-pane fade py-5" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-5-tab">
+                            <span class="icon mb-3 d-block flaticon-innovation"></span>
+                            <h2 class="mb-4">Bimbingan Ngaji</h2>
+                            <p>Yuk nikmati fitur bimbingan ngaji di Aliim. Jadwal dan tempat bisa di atur sesuai kesepakatan pengguna dan pengajar, pengajar di pilih dari yang terbaik,dan pengguna dapat belajar dari dasar hingga bisa.</p>
+                        </div>
+
+                        <div class="tab-pane fade py-5" id="v-pills-7" role="tabpanel" aria-labelledby="v-pills-6-tab">
+                            <span class="icon mb-3 d-block flaticon-idea"></span>
+                            <h2 class="mb-4">Pengobatan Ruqyah Syariah</h2>
+                            <p>Dari sekian banyak fitur, Aliim juga menyediakan pengobatan ruqyah syariah yang dapat di pesan oleh pengguna. Membantu pengguna lebih dekat dengan yang maha kuasa dan mengarahkannya dengan baik, ramah, dan santun.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Fitur -->
+
+    <!-- Kelebihan -->
+    <section class="ftco-section-2 img" style="background-image: url(images/bg_3.jpg);">
+        <div class="container">
+            <div class="row d-md-flex justify-content-end">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="#" class="services-wrap ftco-animate">
+                                <div class="icon d-flex justify-content-center align-items-center">
+                                    <span class="ion-ios-arrow-back"></span>
+                                    <span class="ion-ios-arrow-forward"></span>
+                                </div>
+                                <h2>Pertama dan Satu-satunya</h2>
+                                <p>Aplikasi pertama di Indonesia sebagai tempat belajar Islam yang cocok untuk muallaf dan dibimbing langsung oleh Ustadz & Ustadzah yang berpengalaman.</p>
+
+                            </a>
+                            <a href="#" class="services-wrap ftco-animate">
+                                <div class="icon d-flex justify-content-center align-items-center">
+                                    <span class="ion-ios-arrow-back"></span>
+                                    <span class="ion-ios-arrow-forward"></span>
+                                </div>
+                                <h2>Memiliki Banyak Materi</h2>
+                                <p>Konten pada aliim terdiri dari berbagai aertikel serta berbagai video pembelajaran yang telah diverifikasi dan dimoderasi.</p>
+
+                            </a>
+                            <a href="#" class="services-wrap ftco-animate">
+                                <div class="icon d-flex justify-content-center align-items-center">
+                                    <span class="ion-ios-arrow-back"></span>
+                                    <span class="ion-ios-arrow-forward"></span>
+                                </div>
+                                <h2>Tanya Ustadz</h2>
+                                <p>User dapat bertanya dan akan dijawab oleh pakar agama yang mempunyai latar belakang keilmuan yang mempuni mengenai cara beragama yang benar sesui syariat Islam.</p>
+                            </a>
+                            <a href="#" class="services-wrap ftco-animate">
+                                <div class="icon d-flex justify-content-center align-items-center">
+                                    <span class="ion-ios-arrow-back"></span>
+                                    <span class="ion-ios-arrow-forward"></span>
+                                </div>
+                                <h2>User Experience</h2>
+                                <p>Aliim dirancang dengan UX menarik dan menyenangkan sehingga memudahkan user pada saat menggunakan aplikasi Aliim.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Kelebihan -->
+
+    <!-- Tentang -->
+    <section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb mt-5" id="about-section">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-6 col-lg-5 d-flex">
+                    <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-7 pl-lg-5 py-5">
+                    <div class="py-md-5">
+                        <div class="row justify-content-start pb-3">
+                            <div class="col-md-12 heading-section ftco-animate">
+                                <span class="subheading">Aliim Indonesia</span>
+                                <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">Yuk bejalar bersama Aliim, “Be Aliim with Aliim”</h2>
+                                <p>Aliim mempunyai visi yang bertujuan sebagai sarana yang dapat membantu pengguna untuk mempelajari dan memahami berbagai pengetahuan tentang islam.</p>
+                                <p>Bukan hanya itu, Aliim menghadirkan berbagai macam fitur untuk mempermudah dalam memahami Islam seperti fitur video pembelajaran, tanya Ustadz, bimbingan mengaji dan tentunya lebih banyak lagi.</p>
+                                <p>Yuk Belajar di Aliim. Mari kembali kejalanNya</p>
+                                <p>Belajar Islam mudah dan asyik. Aliim tempatnya</p>
+                            </div>
+                        </div>
+                        <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                            <div class="text p-4 bg-primary rounded-right">
+                                <p class="mb-0">
+                                    <p>Coming Soon !!</p>
+                                    <h2 id="demo "></h2>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Tentang -->
+
+    <!-- Team Dev -->
+    <section class="ftco-section testimony-section" id="testimony-section" style="background-color: #004F00;">
+        <div class="container">
+            <div class="row justify-content-center pb-3 ">
+                <div class="col-md-7 text-center heading-section heading-section-white ftco-animate ">
+                    <h2 class="mb-4 ">Tim Pengembang</h2>
+                    <h4 class=" ">"Aliim Indonesia "</h4>
+                </div>
+            </div>
+            <div class="row ftco-animate justify-content-center ">
+                <div class="col-md-6 col-lg-3 ftco-animate ">
+                    <div class="staff ">
+                        <div class="img-wrap d-flex align-items-stretch ">
+                            <div class="img align-self-stretch " style="background-image: url(images/staff-1.jpg); "></div>
+                        </div>
+                        <div class="text d-flex align-items-center pt-3 text-center ">
+                            <div>
+                                <h3 class="mb-2 ">Yudi Nugraha</h3>
+                                <span class="position mb-4 text-white ">CEO / Founder</span>
+                                <div class="faded ">
+                                    <ul class="ftco-social text-center ">
+                                        <li class="ftco-animate "><a><span class="icon-twitter "></span></a></li>
+                                        <li class="ftco-animate "><a href="https://www.facebook.com/SIRZECHLUCIFER" target="_blank"><span class="icon-facebook "></span></a></li>
+                                        <li class="ftco-animate "><a href="https://www.instagram.com/yudnugrahaa_/" target="_blank"><span class="icon-instagram "></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 ftco-animate ">
+                    <div class="staff ">
+                        <div class="img-wrap d-flex align-items-stretch ">
+                            <div class="img align-self-stretch " style="background-image: url(images/staff-2.jpg); "></div>
+                        </div>
+                        <div class="text d-flex align-items-center pt-3 text-center ">
+                            <div>
+                                <h3 class="mb-2 ">Kafriansyah</h3>
+                                <span class="position mb-4 text-white ">CTO / Programmer</span>
+                                <div class="faded ">
+                                    <ul class="ftco-social text-center ">
+                                        <li class="ftco-animate "><a href="https://twitter.com/kafri_bung" target="_blank"><span class="icon-twitter "></span></a></li>
+                                        <li class="ftco-animate "><a href="https://www.facebook.com/KafriTaziu" target="_blank"><span class="icon-facebook "></span></a></li>
+                                        <li class="ftco-animate "><a href="https://github.com/kafribung" target="_blank"><span class="icon-github"></span></a></li>
+                                        <li class="ftco-animate "><a href="https://www.instagram.com/kafri_bung/" target="_blank"><span class="icon-instagram "></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 ftco-animate ">
+                    <div class="staff ">
+                        <div class="img-wrap d-flex align-items-stretch ">
+                            <div class="img align-self-stretch " style="background-image: url(images/staff-3.jpg); "></div>
+                        </div>
+                        <div class="text d-flex align-items-center pt-3 text-center ">
+                            <div>
+                                <h3 class="mb-2 ">M. Ihsan Mustapa</h3>
+                                <span class="position mb-4 text-white ">CMO & UI/UX Designer</span>
+                                <div class="faded ">
+                                    <ul class="ftco-social text-center ">
+                                        <li class="ftco-animate "><a href="https://twitter.com/iccangkun?s=08" target="_blank"><span class="icon-twitter "></span></a></li>
+                                        <li class="ftco-animate "><a href="https://www.facebook.com/ihsan.gnacci" target="_blank"><span class="icon-facebook "></span></a></li>
+                                        <li class="ftco-animate "><a href="https://www.instagram.com/iccangkun/ " target="_blank"><span class="icon-instagram "></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 ftco-animate ">
+                    <div class="staff ">
+                        <div class="img-wrap d-flex align-items-stretch ">
+                            <div class="img align-self-stretch " style="background-image: url(images/staff-4.jpeg); "></div>
+                        </div>
+                        <div class="text d-flex align-items-center pt-3 text-center ">
+                            <div>
+                                <h3 class="mb-2 ">Dandi</h3>
+                                <span class="position mb-4 text-white ">CIO & Graphic Designer</span>
+                                <div class="faded ">
+                                    <ul class="ftco-social text-center ">
+                                        <li class="ftco-animate "><a><span class="icon-twitter "></span></a></li>
+                                        <li class="ftco-animate "><a href="https://www.instagram.com/_dandii12/" target="_blank"><span class="icon-facebook "></span></a></li>
+                                        <li class="ftco-animate "><a href="https://www.facebook.com/dandi.bvb" target="_blank"><span class="icon-instagram "></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Team Dev -->
+
     <div id="app"></div>
     <!-- built files will be auto injected -->
-  </body>
+
+    <!-- Footer -->
+    <footer class="ftco-footer ftco-section ">
+        <div class="container ">
+            <div class="row mb-5 ">
+                <div class="col-md ">
+                    <div class="ftco-footer-widget mb-4 ">
+                        <h2 class="ftco-heading-2 ">Tentang Aliim</h2>
+                        <p>Aliim mempunyai visi yang bertujuan sebagai sarana yang dapat membantu pengguna untuk mempelajari dan memahami berbagai pengetahuan tentang islam. Cocok untuk muallaf dan orang yng berhijrah</p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5 ">
+                            <li class="ftco-animate "><a href="https://twitter.com/aliim_indonesia" target="_blank"><span class="icon-twitter "></span></a></li>
+                            <li class="ftco-animate "><a href=" https://www.facebook.com/aliimindonesia-112200600443015/" target="_blank"><span class="icon-facebook "></span></a></li>
+                            <li class="ftco-animate "><a href="https://www.instagram.com/aliim.indonesia/" target="_blank"><span class="icon-instagram "></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md ">
+                    <div class="ftco-footer-widget mb-4 ">
+                        <h2 class="ftco-heading-2 ">Layanan</h2>
+                        <ul class="list-unstyled ">
+                            <li><a href=" "><span class="icon-long-arrow-right mr-2 "></span>Artikel Islam</a></li>
+                            <li><a href=" "><span class="icon-long-arrow-right mr-2 "></span>Video Pembelajaran</li>
+                            <li><a href=" "><span class="icon-long-arrow-right mr-2 "></span>Tanya Ustadz</a></li>
+                            <li><a href=" "><span class="icon-long-arrow-right mr-2 "></span>Komentar</a></li>
+                            <li><a href=" "><span class="icon-long-arrow-right mr-2 "></span>Cari Penceramah</a></li>
+                            <li><a href=" "><span class="icon-long-arrow-right mr-2 "></span>Bimbingan Ngaji</a></li>
+                            <li><a href=" "><span class="icon-long-arrow-right mr-2 "></span>Pengobatan Ruqyah Syariah</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md ">
+                    <div class="ftco-footer-widget mb-4 ">
+                        <h2 class="ftco-heading-2 ">Info Lebih Lanjut</h2>
+                        <div class="block-23 mb-3 ">
+                            <ul>
+                                <li><span class="icon icon-map-marker "></span><span class="text ">Romangpolong, Kec. Somba Opu, Kabupaten Gowa, Sulawesi Selatan Indonesia, 92113</span></li>
+                                <li><a href="# "><span class="icon icon-phone "></span><span class="text ">+62 853 4170 8091</span></a></li>
+                                <li><a href="# "><span class="icon icon-envelope "></span><span class="text ">aliim.nomads@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 text-center ">
+
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <!--  donwload in https://colorlib.com -->
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> Aliim Indonesia | Nomads Dev <i class="icon-heart color-danger " aria-hidden="true "></i> Gowa Indonesia
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+    <script src="js/jquery.min.js "></script>
+    <script src="js/jquery-migrate-3.0.1.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/jquery.easing.1.3.js "></script>
+    <script src="js/jquery.waypoints.min.js "></script>
+    <script src="js/jquery.stellar.min.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+    <script src="js/jquery.magnific-popup.min.js "></script>
+    <script src="js/aos.js "></script>
+    <script src="js/jquery.animateNumber.min.js "></script>
+    <script src="js/scrollax.min.js "></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false "></script>
+    <script src="js/google-map.js "></script>
+
+    <script src="js/main.js "></script>
+
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jul 31, 2020 15:37:25 ").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+            // Get todays date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now an the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in an element with id="demo "
+            document.getElementById("demo ").innerHTML = days + "Hari " + hours + "Jam " +
+                minutes + "Menit " + seconds + "Detik ";
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo ").innerHTML = "EXPIRED ";
+            }
+        }, 1000);
+    </script>
+
+</body>
+
 </html>
